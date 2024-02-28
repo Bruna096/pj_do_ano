@@ -1,8 +1,22 @@
-:root{
-    --cor-de-fundo:#1E1E1E;
-    --branco:#FFFFFF;
-    ---botao-ativo:#3A375E;
-    --verde:#3A375E;
-    --
 
+}:root{
+    --cor-de-fundo: #c8118b;
+    --branco: #FFFFFF;
+    --verde: #772370;
+    --botao-ativo: #3A375E;
+    --botao-inativo: rgba(250, 143, 250, 0.5);
+    --texto-fundo: rgba(107, 13, 102, 0.3);
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+    color: var(--branco);
+    font-family: 'Chakra Petch', sans-serif;
+}
+
+.conteudo-principal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
 }
