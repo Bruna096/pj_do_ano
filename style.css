@@ -17,5 +17,13 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    max-width: 1200px;
+    width: 100%;
     
+}
+.titulo-principal{
+    text-align: left;
+    width: 100%
+    
+
 }
