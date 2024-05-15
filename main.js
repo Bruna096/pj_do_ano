@@ -151,7 +151,7 @@ function calculaTempo(tempoObjetivo) {
 
     segundos %= 60;
     minutos %= 60;
-    horas %= 24;
+    horas %= 24;181692
  
  return dias + " dias " + horas + " horas " + minutos + " minutos " + segundos + " segundos";
 }
@@ -173,7 +173,7 @@ const tempos =
 //laço de repetição que altera automaticamente o valor do índice para 0, 1, 2 e 3,automatizando o código.
 /*for (let i = 0; i < contadores.length; i++) {
     contadores[i].textContent = calculaTempo(tempos[0]);
-    }
+    }181692
 
 //substituindo o valor do índice (0) pela variável contadora i.
 for (let i = 0; i < contadores.length; i++) {
@@ -253,10 +253,10 @@ for (let i = 0; i < botoes.length; i++) {
 }
 
 const contadores = document.querySelectorAll(".contador");
-const tempoObjetivo1 = new Date("2023-10-05T00:00:00");
-const tempoObjetivo2 = new Date("2024-05-30T00:00:00");
-const tempoObjetivo3 = new Date("2024-12-30T00:00:00");
-const tempoObjetivo4 = new Date("2024-12-30T00:00:00");
+const tempoObjetivo1 = new Date("2024-11-05T00:00:00");
+const tempoObjetivo2 = new Date("2024-12-30T00:00:00");
+const tempoObjetivo3 = new Date("2025-02-07T00:00:00");
+const tempoObjetivo4 = new Date("2025-03-10T00:00:00");
 
 const tempos = [tempoObjetivo1,tempoObjetivo2,tempoObjetivo3,tempoObjetivo4];
 
